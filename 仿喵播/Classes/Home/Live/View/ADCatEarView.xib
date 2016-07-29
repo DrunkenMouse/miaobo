@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="LaT-4g-Eyg" customClass="ADCatEarView">
+            <rect key="frame" x="0.0" y="0.0" width="98" height="98"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fGa-WK-96T">
+                    <rect key="frame" x="0.0" y="0.0" width="98" height="98"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1m8-n1-TS7">
+                            <rect key="frame" x="0.0" y="0.0" width="98" height="25"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="1m8-n1-TS7" secondAttribute="bottom" constant="73" id="3dX-dr-R3M"/>
+                        <constraint firstAttribute="trailing" secondItem="1m8-n1-TS7" secondAttribute="trailing" id="RkR-2c-HxC"/>
+                        <constraint firstItem="1m8-n1-TS7" firstAttribute="leading" secondItem="fGa-WK-96T" secondAttribute="leading" id="feL-IW-pwQ"/>
+                        <constraint firstItem="1m8-n1-TS7" firstAttribute="top" secondItem="fGa-WK-96T" secondAttribute="top" id="tfa-yD-2pf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fGa-WK-96T" secondAttribute="trailing" id="7Vw-4y-Tgj"/>
+                <constraint firstItem="fGa-WK-96T" firstAttribute="top" secondItem="LaT-4g-Eyg" secondAttribute="top" id="8cL-Oe-Vni"/>
+                <constraint firstAttribute="bottom" secondItem="fGa-WK-96T" secondAttribute="bottom" id="Dw3-Jg-dr2"/>
+                <constraint firstItem="fGa-WK-96T" firstAttribute="leading" secondItem="LaT-4g-Eyg" secondAttribute="leading" id="Uar-df-Voj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="playView" destination="fGa-WK-96T" id="5bd-YT-hU0"/>
+            </connections>
+            <point key="canvasLocation" x="329" y="280"/>
+        </view>
+    </objects>
+</document>

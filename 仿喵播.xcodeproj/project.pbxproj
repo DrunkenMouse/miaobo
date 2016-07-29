@@ -1,0 +1,1327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162A27691D4458940075B137 /* ADInLive.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A27681D4458940075B137 /* ADInLive.m */; };
+		162A276C1D445B070075B137 /* ADUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A276B1D445B070075B137 /* ADUser.m */; };
+		162A27721D44605A0075B137 /* libPods-仿喵播.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 162A27711D44605A0075B137 /* libPods-仿喵播.a */; };
+		162A28AE1D447BCC0075B137 /* ADRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A28AD1D447BCC0075B137 /* ADRefreshGifHeader.m */; };
+		162A28B11D447D9F0075B137 /* ADHotLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A28B01D447D9F0075B137 /* ADHotLiveCell.m */; };
+		162A28B41D447DD60075B137 /* ADHomeADCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A28B31D447DD60075B137 /* ADHomeADCell.m */; };
+		162A28B61D447DF30075B137 /* ADHotLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 162A28B51D447DF30075B137 /* ADHotLiveCell.xib */; };
+		162A28BA1D447F9C0075B137 /* XRCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A28B91D447F9C0075B137 /* XRCarouselView.m */; };
+		162A28BD1D4496BD0075B137 /* UIImage+ADExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A28BC1D4496BD0075B137 /* UIImage+ADExtension.m */; };
+		162A28C01D44AD070075B137 /* ADTopAD.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A28BF1D44AD070075B137 /* ADTopAD.m */; };
+		162A28C31D44B6800075B137 /* ADWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A28C21D44B6800075B137 /* ADWebViewController.m */; };
+		162A28C61D44B7A50075B137 /* ADLiveCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A28C51D44B7A50075B137 /* ADLiveCollectionViewController.m */; };
+		162A28C91D44CAD20075B137 /* ADBottomToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A28C81D44CAD20075B137 /* ADBottomToolView.m */; };
+		162A28CC1D44CE810075B137 /* ADLiveAnchorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A28CB1D44CE810075B137 /* ADLiveAnchorView.m */; };
+		162A28CE1D44D0EE0075B137 /* ADLiveAnchorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 162A28CD1D44D0EE0075B137 /* ADLiveAnchorView.xib */; };
+		162A28D11D45AB0C0075B137 /* ADCatEarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A28D01D45AB0C0075B137 /* ADCatEarView.m */; };
+		162A28D31D45AB2F0075B137 /* ADCatEarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 162A28D21D45AB2F0075B137 /* ADCatEarView.xib */; };
+		162A28D61D45B0150075B137 /* ADLiveViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A28D51D45B0150075B137 /* ADLiveViewCell.m */; };
+		162A28D91D45B1560075B137 /* ADLiveEndView.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A28D81D45B1560075B137 /* ADLiveEndView.m */; };
+		162A28DB1D45B3D50075B137 /* ADLiveEndView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 162A28DA1D45B3D50075B137 /* ADLiveEndView.xib */; };
+		162A28DE1D45BBE50075B137 /* UIViewController+ADExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A28DD1D45BBE50075B137 /* UIViewController+ADExtension.m */; };
+		162A28E11D45EA0E0075B137 /* NSSafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A28E01D45EA0E0075B137 /* NSSafeObject.m */; };
+		162A29471D4608420075B137 /* ADLiveFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A29461D4608420075B137 /* ADLiveFlowLayout.m */; };
+		162A294A1D4609040075B137 /* ADUserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A29491D4609040075B137 /* ADUserView.m */; };
+		162A294C1D46096E0075B137 /* ADUserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 162A294B1D46096E0075B137 /* ADUserView.xib */; };
+		162A294F1D46E8060075B137 /* ADNewStarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A294E1D46E8060075B137 /* ADNewStarViewController.m */; };
+		162A29521D46E8550075B137 /* ADAnchorViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A29511D46E8550075B137 /* ADAnchorViewCell.m */; };
+		162A29541D46E86C0075B137 /* ADAnchorViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 162A29531D46E86C0075B137 /* ADAnchorViewCell.xib */; };
+		162A29571D46EFFA0075B137 /* ADHomeFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A29561D46EFFA0075B137 /* ADHomeFlowLayout.m */; };
+		162A29861D4707200075B137 /* ADCareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A29851D4707200075B137 /* ADCareViewController.m */; };
+		162A29881D47072F0075B137 /* ADCareViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162A29871D47072F0075B137 /* ADCareViewController.storyboard */; };
+		162A2ABD1D483D500075B137 /* ADShowTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162A2ABB1D483D500075B137 /* ADShowTimeViewController.m */; };
+		162A2ABE1D483D500075B137 /* ADShowTimeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162A2ABC1D483D500075B137 /* ADShowTimeViewController.storyboard */; };
+		1660C0F81D405261000BAE8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C0F71D405261000BAE8F /* main.m */; };
+		1660C0FB1D405261000BAE8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C0FA1D405261000BAE8F /* AppDelegate.m */; };
+		1660C1031D405261000BAE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1660C1021D405261000BAE8F /* Assets.xcassets */; };
+		1660C1061D405261000BAE8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1660C1041D405261000BAE8F /* LaunchScreen.storyboard */; };
+		1660C1111D405261000BAE8F /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C1101D405261000BAE8F /* ___Tests.m */; };
+		1660C11C1D405261000BAE8F /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C11B1D405261000BAE8F /* ___UITests.m */; };
+		1660C1321D406364000BAE8F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C1301D406364000BAE8F /* Reachability.m */; };
+		1660C1351D40639D000BAE8F /* ADConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C1341D40639D000BAE8F /* ADConstant.m */; };
+		1660C13A1D4064E5000BAE8F /* ADProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C1391D4064E5000BAE8F /* ADProfileController.m */; };
+		1660C15F1D406859000BAE8F /* ADLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C15E1D406859000BAE8F /* ADLoginViewController.m */; };
+		1660C1621D40689F000BAE8F /* ADThirdLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C1611D40689F000BAE8F /* ADThirdLoginView.m */; };
+		1660C18B1D406CBD000BAE8F /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1660C18A1D406CBD000BAE8F /* IJKMediaFramework.framework */; };
+		1660C18C1D406CC4000BAE8F /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1660C18A1D406CBD000BAE8F /* IJKMediaFramework.framework */; };
+		1660C18D1D406CC4000BAE8F /* IJKMediaFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1660C18A1D406CBD000BAE8F /* IJKMediaFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1660C1941D406E9D000BAE8F /* danmu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1660C18F1D406E9D000BAE8F /* danmu.plist */; };
+		1660C1951D406E9D000BAE8F /* login_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1660C1901D406E9D000BAE8F /* login_video.mp4 */; };
+		1660C1961D406E9D000BAE8F /* loginmovie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1660C1911D406E9D000BAE8F /* loginmovie.mp4 */; };
+		1660C1971D406E9D000BAE8F /* user.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1660C1931D406E9D000BAE8F /* user.plist */; };
+		1660C1B71D41A657000BAE8F /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C1A81D41A657000BAE8F /* UIImageView+Extension.m */; };
+		1660C1B81D41A657000BAE8F /* UIView+SLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C1AB1D41A657000BAE8F /* UIView+SLExtension.m */; };
+		1660C1BD1D41A7BD000BAE8F /* NSObject+ADHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C1BC1D41A7BD000BAE8F /* NSObject+ADHUD.m */; };
+		1660C1C01D41A815000BAE8F /* UIViewController+ADSLHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C1BF1D41A815000BAE8F /* UIViewController+ADSLHUD.m */; };
+		1660C1C31D41AEC3000BAE8F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C1C21D41AEC3000BAE8F /* MainViewController.m */; };
+		1660C1C61D41AEF1000BAE8F /* ADNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C1C51D41AEF1000BAE8F /* ADNavigationController.m */; };
+		1660C1C91D41B521000BAE8F /* ADHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C1C81D41B521000BAE8F /* ADHomeViewController.m */; };
+		1660C1D21D41B654000BAE8F /* UIDevice+ADExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C1D11D41B654000BAE8F /* UIDevice+ADExtension.m */; };
+		1660C1D51D41DF54000BAE8F /* ADNetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C1D41D41DF54000BAE8F /* ADNetWorkTool.m */; };
+		1660C1D81D41EE2F000BAE8F /* ADTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C1D71D41EE2F000BAE8F /* ADTopWindow.m */; };
+		1660C2E51D438E61000BAE8F /* ADSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C2E41D438E61000BAE8F /* ADSelectedView.m */; };
+		1660C2E81D439F95000BAE8F /* ADHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660C2E71D439F95000BAE8F /* ADHotViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1660C10D1D405261000BAE8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1660C0EB1D405261000BAE8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1660C0F21D405261000BAE8F;
+			remoteInfo = "仿喵播";
+		};
+		1660C1181D405261000BAE8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1660C0EB1D405261000BAE8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1660C0F21D405261000BAE8F;
+			remoteInfo = "仿喵播";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1660C18E1D406CC5000BAE8F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1660C18D1D406CC4000BAE8F /* IJKMediaFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		162A27671D4458940075B137 /* ADInLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADInLive.h; sourceTree = "<group>"; };
+		162A27681D4458940075B137 /* ADInLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADInLive.m; sourceTree = "<group>"; };
+		162A276A1D445B070075B137 /* ADUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADUser.h; sourceTree = "<group>"; };
+		162A276B1D445B070075B137 /* ADUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADUser.m; sourceTree = "<group>"; };
+		162A27711D44605A0075B137 /* libPods-仿喵播.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-仿喵播.a"; path = "../../../../Library/Developer/Xcode/DerivedData/仿喵播-gsgqptctquwizmdlqnvnnucapolt/Build/Products/Debug-iphonesimulator/libPods-仿喵播.a"; sourceTree = "<group>"; };
+		162A28AC1D447BCC0075B137 /* ADRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADRefreshGifHeader.h; sourceTree = "<group>"; };
+		162A28AD1D447BCC0075B137 /* ADRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADRefreshGifHeader.m; sourceTree = "<group>"; };
+		162A28AF1D447D9F0075B137 /* ADHotLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADHotLiveCell.h; sourceTree = "<group>"; };
+		162A28B01D447D9F0075B137 /* ADHotLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADHotLiveCell.m; sourceTree = "<group>"; };
+		162A28B21D447DD60075B137 /* ADHomeADCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADHomeADCell.h; sourceTree = "<group>"; };
+		162A28B31D447DD60075B137 /* ADHomeADCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADHomeADCell.m; sourceTree = "<group>"; };
+		162A28B51D447DF30075B137 /* ADHotLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADHotLiveCell.xib; sourceTree = "<group>"; };
+		162A28B81D447F9C0075B137 /* XRCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRCarouselView.h; sourceTree = "<group>"; };
+		162A28B91D447F9C0075B137 /* XRCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRCarouselView.m; sourceTree = "<group>"; };
+		162A28BB1D4496BD0075B137 /* UIImage+ADExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ADExtension.h"; sourceTree = "<group>"; };
+		162A28BC1D4496BD0075B137 /* UIImage+ADExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ADExtension.m"; sourceTree = "<group>"; };
+		162A28BE1D44AD070075B137 /* ADTopAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTopAD.h; sourceTree = "<group>"; };
+		162A28BF1D44AD070075B137 /* ADTopAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTopAD.m; sourceTree = "<group>"; };
+		162A28C11D44B6800075B137 /* ADWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADWebViewController.h; sourceTree = "<group>"; };
+		162A28C21D44B6800075B137 /* ADWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADWebViewController.m; sourceTree = "<group>"; };
+		162A28C41D44B7A50075B137 /* ADLiveCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLiveCollectionViewController.h; sourceTree = "<group>"; };
+		162A28C51D44B7A50075B137 /* ADLiveCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLiveCollectionViewController.m; sourceTree = "<group>"; };
+		162A28C71D44CAD20075B137 /* ADBottomToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBottomToolView.h; sourceTree = "<group>"; };
+		162A28C81D44CAD20075B137 /* ADBottomToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBottomToolView.m; sourceTree = "<group>"; };
+		162A28CA1D44CE810075B137 /* ADLiveAnchorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLiveAnchorView.h; sourceTree = "<group>"; };
+		162A28CB1D44CE810075B137 /* ADLiveAnchorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLiveAnchorView.m; sourceTree = "<group>"; };
+		162A28CD1D44D0EE0075B137 /* ADLiveAnchorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADLiveAnchorView.xib; sourceTree = "<group>"; };
+		162A28CF1D45AB0C0075B137 /* ADCatEarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCatEarView.h; sourceTree = "<group>"; };
+		162A28D01D45AB0C0075B137 /* ADCatEarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCatEarView.m; sourceTree = "<group>"; };
+		162A28D21D45AB2F0075B137 /* ADCatEarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADCatEarView.xib; sourceTree = "<group>"; };
+		162A28D41D45B0150075B137 /* ADLiveViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLiveViewCell.h; sourceTree = "<group>"; };
+		162A28D51D45B0150075B137 /* ADLiveViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLiveViewCell.m; sourceTree = "<group>"; };
+		162A28D71D45B1560075B137 /* ADLiveEndView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLiveEndView.h; sourceTree = "<group>"; };
+		162A28D81D45B1560075B137 /* ADLiveEndView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLiveEndView.m; sourceTree = "<group>"; };
+		162A28DA1D45B3D50075B137 /* ADLiveEndView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADLiveEndView.xib; sourceTree = "<group>"; };
+		162A28DC1D45BBE50075B137 /* UIViewController+ADExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ADExtension.h"; sourceTree = "<group>"; };
+		162A28DD1D45BBE50075B137 /* UIViewController+ADExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ADExtension.m"; sourceTree = "<group>"; };
+		162A28DF1D45EA0E0075B137 /* NSSafeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSafeObject.h; sourceTree = "<group>"; };
+		162A28E01D45EA0E0075B137 /* NSSafeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSafeObject.m; sourceTree = "<group>"; };
+		162A29451D4608420075B137 /* ADLiveFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLiveFlowLayout.h; sourceTree = "<group>"; };
+		162A29461D4608420075B137 /* ADLiveFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLiveFlowLayout.m; sourceTree = "<group>"; };
+		162A29481D4609040075B137 /* ADUserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADUserView.h; sourceTree = "<group>"; };
+		162A29491D4609040075B137 /* ADUserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADUserView.m; sourceTree = "<group>"; };
+		162A294B1D46096E0075B137 /* ADUserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADUserView.xib; sourceTree = "<group>"; };
+		162A294D1D46E8060075B137 /* ADNewStarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNewStarViewController.h; sourceTree = "<group>"; };
+		162A294E1D46E8060075B137 /* ADNewStarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNewStarViewController.m; sourceTree = "<group>"; };
+		162A29501D46E8550075B137 /* ADAnchorViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADAnchorViewCell.h; sourceTree = "<group>"; };
+		162A29511D46E8550075B137 /* ADAnchorViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADAnchorViewCell.m; sourceTree = "<group>"; };
+		162A29531D46E86C0075B137 /* ADAnchorViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADAnchorViewCell.xib; sourceTree = "<group>"; };
+		162A29551D46EFFA0075B137 /* ADHomeFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADHomeFlowLayout.h; sourceTree = "<group>"; };
+		162A29561D46EFFA0075B137 /* ADHomeFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADHomeFlowLayout.m; sourceTree = "<group>"; };
+		162A29841D4707200075B137 /* ADCareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCareViewController.h; sourceTree = "<group>"; };
+		162A29851D4707200075B137 /* ADCareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCareViewController.m; sourceTree = "<group>"; };
+		162A29871D47072F0075B137 /* ADCareViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ADCareViewController.storyboard; sourceTree = "<group>"; };
+		162A2ABA1D483D500075B137 /* ADShowTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADShowTimeViewController.h; sourceTree = "<group>"; };
+		162A2ABB1D483D500075B137 /* ADShowTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADShowTimeViewController.m; sourceTree = "<group>"; };
+		162A2ABC1D483D500075B137 /* ADShowTimeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ADShowTimeViewController.storyboard; sourceTree = "<group>"; };
+		1660C0F31D405261000BAE8F /* 仿喵播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿喵播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1660C0F71D405261000BAE8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1660C0F91D405261000BAE8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1660C0FA1D405261000BAE8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1660C1021D405261000BAE8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1660C1051D405261000BAE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1660C1071D405261000BAE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1660C10C1D405261000BAE8F /* 仿喵播Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿喵播Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1660C1101D405261000BAE8F /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		1660C1121D405261000BAE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1660C1171D405261000BAE8F /* 仿喵播UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿喵播UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1660C11B1D405261000BAE8F /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
+		1660C11D1D405261000BAE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1660C12F1D406364000BAE8F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1660C1301D406364000BAE8F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1660C1331D40639D000BAE8F /* ADConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADConstant.h; sourceTree = "<group>"; };
+		1660C1341D40639D000BAE8F /* ADConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADConstant.m; sourceTree = "<group>"; };
+		1660C1381D4064E5000BAE8F /* ADProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADProfileController.h; sourceTree = "<group>"; };
+		1660C1391D4064E5000BAE8F /* ADProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADProfileController.m; sourceTree = "<group>"; };
+		1660C15D1D406859000BAE8F /* ADLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLoginViewController.h; sourceTree = "<group>"; };
+		1660C15E1D406859000BAE8F /* ADLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLoginViewController.m; sourceTree = "<group>"; };
+		1660C1601D40689F000BAE8F /* ADThirdLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADThirdLoginView.h; sourceTree = "<group>"; };
+		1660C1611D40689F000BAE8F /* ADThirdLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADThirdLoginView.m; sourceTree = "<group>"; };
+		1660C18A1D406CBD000BAE8F /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		1660C18F1D406E9D000BAE8F /* danmu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = danmu.plist; sourceTree = "<group>"; };
+		1660C1901D406E9D000BAE8F /* login_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = login_video.mp4; sourceTree = "<group>"; };
+		1660C1911D406E9D000BAE8F /* loginmovie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loginmovie.mp4; sourceTree = "<group>"; };
+		1660C1921D406E9D000BAE8F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1660C1931D406E9D000BAE8F /* user.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = user.plist; sourceTree = "<group>"; };
+		1660C1A71D41A657000BAE8F /* UIImageView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
+		1660C1A81D41A657000BAE8F /* UIImageView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
+		1660C1AA1D41A657000BAE8F /* UIView+SLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SLExtension.h"; sourceTree = "<group>"; };
+		1660C1AB1D41A657000BAE8F /* UIView+SLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLExtension.m"; sourceTree = "<group>"; };
+		1660C1BB1D41A7BD000BAE8F /* NSObject+ADHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ADHUD.h"; sourceTree = "<group>"; };
+		1660C1BC1D41A7BD000BAE8F /* NSObject+ADHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ADHUD.m"; sourceTree = "<group>"; };
+		1660C1BE1D41A815000BAE8F /* UIViewController+ADSLHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ADSLHUD.h"; sourceTree = "<group>"; };
+		1660C1BF1D41A815000BAE8F /* UIViewController+ADSLHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ADSLHUD.m"; sourceTree = "<group>"; };
+		1660C1C11D41AEC3000BAE8F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1660C1C21D41AEC3000BAE8F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1660C1C41D41AEF1000BAE8F /* ADNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNavigationController.h; sourceTree = "<group>"; };
+		1660C1C51D41AEF1000BAE8F /* ADNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNavigationController.m; sourceTree = "<group>"; };
+		1660C1C71D41B521000BAE8F /* ADHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADHomeViewController.h; sourceTree = "<group>"; };
+		1660C1C81D41B521000BAE8F /* ADHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADHomeViewController.m; sourceTree = "<group>"; };
+		1660C1D01D41B654000BAE8F /* UIDevice+ADExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+ADExtension.h"; sourceTree = "<group>"; };
+		1660C1D11D41B654000BAE8F /* UIDevice+ADExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+ADExtension.m"; sourceTree = "<group>"; };
+		1660C1D31D41DF54000BAE8F /* ADNetWorkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNetWorkTool.h; sourceTree = "<group>"; };
+		1660C1D41D41DF54000BAE8F /* ADNetWorkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNetWorkTool.m; sourceTree = "<group>"; };
+		1660C1D61D41EE2F000BAE8F /* ADTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTopWindow.h; sourceTree = "<group>"; };
+		1660C1D71D41EE2F000BAE8F /* ADTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTopWindow.m; sourceTree = "<group>"; };
+		1660C2E31D438E61000BAE8F /* ADSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSelectedView.h; sourceTree = "<group>"; };
+		1660C2E41D438E61000BAE8F /* ADSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSelectedView.m; sourceTree = "<group>"; };
+		1660C2E61D439F95000BAE8F /* ADHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADHotViewController.h; sourceTree = "<group>"; };
+		1660C2E71D439F95000BAE8F /* ADHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADHotViewController.m; sourceTree = "<group>"; };
+		19F732158DB858256BC3D8FE /* Pods-仿喵播.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-仿喵播.debug.xcconfig"; path = "Pods/Target Support Files/Pods-仿喵播/Pods-仿喵播.debug.xcconfig"; sourceTree = "<group>"; };
+		1ACE90EF4F6C684721378D9C /* Pods-仿喵播.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-仿喵播.release.xcconfig"; path = "Pods/Target Support Files/Pods-仿喵播/Pods-仿喵播.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1660C0F01D405261000BAE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162A27721D44605A0075B137 /* libPods-仿喵播.a in Frameworks */,
+				1660C18B1D406CBD000BAE8F /* IJKMediaFramework.framework in Frameworks */,
+				1660C18C1D406CC4000BAE8F /* IJKMediaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1660C1091D405261000BAE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1660C1141D405261000BAE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		162A28B71D447F9C0075B137 /* XRCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				162A28B81D447F9C0075B137 /* XRCarouselView.h */,
+				162A28B91D447F9C0075B137 /* XRCarouselView.m */,
+			);
+			path = XRCarouselView;
+			sourceTree = "<group>";
+		};
+		1660C0EA1D405261000BAE8F = {
+			isa = PBXGroup;
+			children = (
+				1660C0F51D405261000BAE8F /* 仿喵播 */,
+				1660C10F1D405261000BAE8F /* 仿喵播Tests */,
+				1660C11A1D405261000BAE8F /* 仿喵播UITests */,
+				1660C0F41D405261000BAE8F /* Products */,
+				C09C17EBFDC635553752D0BD /* Pods */,
+				2DAE810DE6F6DD8B59E5DD44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1660C0F41D405261000BAE8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1660C0F31D405261000BAE8F /* 仿喵播.app */,
+				1660C10C1D405261000BAE8F /* 仿喵播Tests.xctest */,
+				1660C1171D405261000BAE8F /* 仿喵播UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1660C0F51D405261000BAE8F /* 仿喵播 */ = {
+			isa = PBXGroup;
+			children = (
+				1660C12D1D406364000BAE8F /* Classes */,
+				1660C0F91D405261000BAE8F /* AppDelegate.h */,
+				1660C0FA1D405261000BAE8F /* AppDelegate.m */,
+				1660C1021D405261000BAE8F /* Assets.xcassets */,
+				1660C1041D405261000BAE8F /* LaunchScreen.storyboard */,
+				1660C1071D405261000BAE8F /* Info.plist */,
+				1660C0F61D405261000BAE8F /* Supporting Files */,
+			);
+			path = "仿喵播";
+			sourceTree = "<group>";
+		};
+		1660C0F61D405261000BAE8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1660C0F71D405261000BAE8F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1660C10F1D405261000BAE8F /* 仿喵播Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1101D405261000BAE8F /* ___Tests.m */,
+				1660C1121D405261000BAE8F /* Info.plist */,
+			);
+			path = "仿喵播Tests";
+			sourceTree = "<group>";
+		};
+		1660C11A1D405261000BAE8F /* 仿喵播UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1660C11B1D405261000BAE8F /* ___UITests.m */,
+				1660C11D1D405261000BAE8F /* Info.plist */,
+			);
+			path = "仿喵播UITests";
+			sourceTree = "<group>";
+		};
+		1660C12D1D406364000BAE8F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1531D40663F000BAE8F /* Resource */,
+				1660C1891D406CBD000BAE8F /* Frameworks */,
+				1660C13B1D40663F000BAE8F /* Home */,
+				1660C1511D40663F000BAE8F /* Login */,
+				1660C1521D40663F000BAE8F /* Main */,
+				1660C1541D40663F000BAE8F /* ShowTime */,
+				1660C15A1D40663F000BAE8F /* Tools */,
+				1660C1361D4064C8000BAE8F /* Profile */,
+				1660C12E1D406364000BAE8F /* NetWork */,
+				1660C1311D406364000BAE8F /* other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1660C12E1D406364000BAE8F /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				1660C12F1D406364000BAE8F /* Reachability.h */,
+				1660C1301D406364000BAE8F /* Reachability.m */,
+				1660C1D31D41DF54000BAE8F /* ADNetWorkTool.h */,
+				1660C1D41D41DF54000BAE8F /* ADNetWorkTool.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		1660C1311D406364000BAE8F /* other */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1331D40639D000BAE8F /* ADConstant.h */,
+				1660C1341D40639D000BAE8F /* ADConstant.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		1660C1361D4064C8000BAE8F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1371D4064C8000BAE8F /* Controller */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1660C1371D4064C8000BAE8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1381D4064E5000BAE8F /* ADProfileController.h */,
+				1660C1391D4064E5000BAE8F /* ADProfileController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1660C13B1D40663F000BAE8F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1660C13C1D40663F000BAE8F /* Care */,
+				1660C1401D40663F000BAE8F /* Home */,
+				1660C1441D40663F000BAE8F /* Hot */,
+				1660C1481D40663F000BAE8F /* Live */,
+				1660C14C1D40663F000BAE8F /* New */,
+				1660C1501D40663F000BAE8F /* Web */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1660C13C1D40663F000BAE8F /* Care */ = {
+			isa = PBXGroup;
+			children = (
+				1660C13D1D40663F000BAE8F /* Controller */,
+				1660C13E1D40663F000BAE8F /* Model */,
+				1660C13F1D40663F000BAE8F /* View */,
+			);
+			path = Care;
+			sourceTree = "<group>";
+		};
+		1660C13D1D40663F000BAE8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				162A29841D4707200075B137 /* ADCareViewController.h */,
+				162A29851D4707200075B137 /* ADCareViewController.m */,
+				162A29871D47072F0075B137 /* ADCareViewController.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1660C13E1D40663F000BAE8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1660C13F1D40663F000BAE8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1660C1401D40663F000BAE8F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1411D40663F000BAE8F /* Controller */,
+				1660C1421D40663F000BAE8F /* Model */,
+				1660C1431D40663F000BAE8F /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1660C1411D40663F000BAE8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1C71D41B521000BAE8F /* ADHomeViewController.h */,
+				1660C1C81D41B521000BAE8F /* ADHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1660C1421D40663F000BAE8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				162A27671D4458940075B137 /* ADInLive.h */,
+				162A27681D4458940075B137 /* ADInLive.m */,
+				162A276A1D445B070075B137 /* ADUser.h */,
+				162A276B1D445B070075B137 /* ADUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1660C1431D40663F000BAE8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1660C2E31D438E61000BAE8F /* ADSelectedView.h */,
+				1660C2E41D438E61000BAE8F /* ADSelectedView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1660C1441D40663F000BAE8F /* Hot */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1451D40663F000BAE8F /* Controller */,
+				1660C1461D40663F000BAE8F /* Model */,
+				1660C1471D40663F000BAE8F /* View */,
+			);
+			path = Hot;
+			sourceTree = "<group>";
+		};
+		1660C1451D40663F000BAE8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1660C2E61D439F95000BAE8F /* ADHotViewController.h */,
+				1660C2E71D439F95000BAE8F /* ADHotViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1660C1461D40663F000BAE8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				162A28BE1D44AD070075B137 /* ADTopAD.h */,
+				162A28BF1D44AD070075B137 /* ADTopAD.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1660C1471D40663F000BAE8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				162A28B71D447F9C0075B137 /* XRCarouselView */,
+				162A28AF1D447D9F0075B137 /* ADHotLiveCell.h */,
+				162A28B01D447D9F0075B137 /* ADHotLiveCell.m */,
+				162A28B21D447DD60075B137 /* ADHomeADCell.h */,
+				162A28B31D447DD60075B137 /* ADHomeADCell.m */,
+				162A28B51D447DF30075B137 /* ADHotLiveCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1660C1481D40663F000BAE8F /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1491D40663F000BAE8F /* Controller */,
+				1660C14A1D40663F000BAE8F /* SafeObject */,
+				1660C14B1D40663F000BAE8F /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		1660C1491D40663F000BAE8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				162A28C41D44B7A50075B137 /* ADLiveCollectionViewController.h */,
+				162A28C51D44B7A50075B137 /* ADLiveCollectionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1660C14A1D40663F000BAE8F /* SafeObject */ = {
+			isa = PBXGroup;
+			children = (
+				162A28DF1D45EA0E0075B137 /* NSSafeObject.h */,
+				162A28E01D45EA0E0075B137 /* NSSafeObject.m */,
+			);
+			path = SafeObject;
+			sourceTree = "<group>";
+		};
+		1660C14B1D40663F000BAE8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				162A28C71D44CAD20075B137 /* ADBottomToolView.h */,
+				162A28C81D44CAD20075B137 /* ADBottomToolView.m */,
+				162A28CA1D44CE810075B137 /* ADLiveAnchorView.h */,
+				162A28CB1D44CE810075B137 /* ADLiveAnchorView.m */,
+				162A28CD1D44D0EE0075B137 /* ADLiveAnchorView.xib */,
+				162A28CF1D45AB0C0075B137 /* ADCatEarView.h */,
+				162A28D01D45AB0C0075B137 /* ADCatEarView.m */,
+				162A28D21D45AB2F0075B137 /* ADCatEarView.xib */,
+				162A28D41D45B0150075B137 /* ADLiveViewCell.h */,
+				162A28D51D45B0150075B137 /* ADLiveViewCell.m */,
+				162A28D71D45B1560075B137 /* ADLiveEndView.h */,
+				162A28D81D45B1560075B137 /* ADLiveEndView.m */,
+				162A28DA1D45B3D50075B137 /* ADLiveEndView.xib */,
+				162A29451D4608420075B137 /* ADLiveFlowLayout.h */,
+				162A29461D4608420075B137 /* ADLiveFlowLayout.m */,
+				162A29481D4609040075B137 /* ADUserView.h */,
+				162A29491D4609040075B137 /* ADUserView.m */,
+				162A294B1D46096E0075B137 /* ADUserView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1660C14C1D40663F000BAE8F /* New */ = {
+			isa = PBXGroup;
+			children = (
+				1660C14D1D40663F000BAE8F /* Controller */,
+				1660C14E1D40663F000BAE8F /* Model */,
+				1660C14F1D40663F000BAE8F /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		1660C14D1D40663F000BAE8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				162A294D1D46E8060075B137 /* ADNewStarViewController.h */,
+				162A294E1D46E8060075B137 /* ADNewStarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1660C14E1D40663F000BAE8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1660C14F1D40663F000BAE8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				162A29501D46E8550075B137 /* ADAnchorViewCell.h */,
+				162A29511D46E8550075B137 /* ADAnchorViewCell.m */,
+				162A29531D46E86C0075B137 /* ADAnchorViewCell.xib */,
+				162A29551D46EFFA0075B137 /* ADHomeFlowLayout.h */,
+				162A29561D46EFFA0075B137 /* ADHomeFlowLayout.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1660C1501D40663F000BAE8F /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				162A28C11D44B6800075B137 /* ADWebViewController.h */,
+				162A28C21D44B6800075B137 /* ADWebViewController.m */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		1660C1511D40663F000BAE8F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1660C15B1D406835000BAE8F /* Controller */,
+				1660C15C1D406835000BAE8F /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1660C1521D40663F000BAE8F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1C11D41AEC3000BAE8F /* MainViewController.h */,
+				1660C1C21D41AEC3000BAE8F /* MainViewController.m */,
+				1660C1C41D41AEF1000BAE8F /* ADNavigationController.h */,
+				1660C1C51D41AEF1000BAE8F /* ADNavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1660C1531D40663F000BAE8F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1660C18F1D406E9D000BAE8F /* danmu.plist */,
+				1660C1901D406E9D000BAE8F /* login_video.mp4 */,
+				1660C1911D406E9D000BAE8F /* loginmovie.mp4 */,
+				1660C1921D406E9D000BAE8F /* PrefixHeader.pch */,
+				1660C1931D406E9D000BAE8F /* user.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1660C1541D40663F000BAE8F /* ShowTime */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1551D40663F000BAE8F /* Controller */,
+				1660C1561D40663F000BAE8F /* Filter */,
+				1660C1571D40663F000BAE8F /* H264Encoder */,
+				1660C1581D40663F000BAE8F /* Model */,
+				1660C1591D40663F000BAE8F /* View */,
+			);
+			path = ShowTime;
+			sourceTree = "<group>";
+		};
+		1660C1551D40663F000BAE8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				162A2ABA1D483D500075B137 /* ADShowTimeViewController.h */,
+				162A2ABB1D483D500075B137 /* ADShowTimeViewController.m */,
+				162A2ABC1D483D500075B137 /* ADShowTimeViewController.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1660C1561D40663F000BAE8F /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		1660C1571D40663F000BAE8F /* H264Encoder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = H264Encoder;
+			sourceTree = "<group>";
+		};
+		1660C1581D40663F000BAE8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1660C1591D40663F000BAE8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1660C15A1D40663F000BAE8F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1981D41A657000BAE8F /* Device */,
+				1660C19B1D41A657000BAE8F /* HUD */,
+				1660C1A01D41A657000BAE8F /* Refresh */,
+				1660C1A31D41A657000BAE8F /* UIImage */,
+				1660C1A61D41A657000BAE8F /* UIImageView */,
+				1660C1A91D41A657000BAE8F /* View */,
+				1660C1AC1D41A657000BAE8F /* ViewController */,
+				1660C1AF1D41A657000BAE8F /* Window */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1660C15B1D406835000BAE8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1660C15D1D406859000BAE8F /* ADLoginViewController.h */,
+				1660C15E1D406859000BAE8F /* ADLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1660C15C1D406835000BAE8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1601D40689F000BAE8F /* ADThirdLoginView.h */,
+				1660C1611D40689F000BAE8F /* ADThirdLoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1660C1891D406CBD000BAE8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1660C18A1D406CBD000BAE8F /* IJKMediaFramework.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		1660C1981D41A657000BAE8F /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1D01D41B654000BAE8F /* UIDevice+ADExtension.h */,
+				1660C1D11D41B654000BAE8F /* UIDevice+ADExtension.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		1660C19B1D41A657000BAE8F /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1BE1D41A815000BAE8F /* UIViewController+ADSLHUD.h */,
+				1660C1BF1D41A815000BAE8F /* UIViewController+ADSLHUD.m */,
+				1660C1BB1D41A7BD000BAE8F /* NSObject+ADHUD.h */,
+				1660C1BC1D41A7BD000BAE8F /* NSObject+ADHUD.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		1660C1A01D41A657000BAE8F /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				162A28AC1D447BCC0075B137 /* ADRefreshGifHeader.h */,
+				162A28AD1D447BCC0075B137 /* ADRefreshGifHeader.m */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		1660C1A31D41A657000BAE8F /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				162A28BB1D4496BD0075B137 /* UIImage+ADExtension.h */,
+				162A28BC1D4496BD0075B137 /* UIImage+ADExtension.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		1660C1A61D41A657000BAE8F /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1A71D41A657000BAE8F /* UIImageView+Extension.h */,
+				1660C1A81D41A657000BAE8F /* UIImageView+Extension.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		1660C1A91D41A657000BAE8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1AA1D41A657000BAE8F /* UIView+SLExtension.h */,
+				1660C1AB1D41A657000BAE8F /* UIView+SLExtension.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1660C1AC1D41A657000BAE8F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				162A28DC1D45BBE50075B137 /* UIViewController+ADExtension.h */,
+				162A28DD1D45BBE50075B137 /* UIViewController+ADExtension.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1660C1AF1D41A657000BAE8F /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				1660C1D61D41EE2F000BAE8F /* ADTopWindow.h */,
+				1660C1D71D41EE2F000BAE8F /* ADTopWindow.m */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		2DAE810DE6F6DD8B59E5DD44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				162A27711D44605A0075B137 /* libPods-仿喵播.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C09C17EBFDC635553752D0BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19F732158DB858256BC3D8FE /* Pods-仿喵播.debug.xcconfig */,
+				1ACE90EF4F6C684721378D9C /* Pods-仿喵播.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1660C0F21D405261000BAE8F /* 仿喵播 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1660C1201D405261000BAE8F /* Build configuration list for PBXNativeTarget "仿喵播" */;
+			buildPhases = (
+				17E1D82D28190F592143ECF9 /* Check Pods Manifest.lock */,
+				1660C0EF1D405261000BAE8F /* Sources */,
+				1660C0F01D405261000BAE8F /* Frameworks */,
+				1660C0F11D405261000BAE8F /* Resources */,
+				1660C18E1D406CC5000BAE8F /* Embed Frameworks */,
+				9F99FD888A3FE6E68E22ED7F /* Embed Pods Frameworks */,
+				70A946B3A2521AA05030D6A2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿喵播";
+			productName = "仿喵播";
+			productReference = 1660C0F31D405261000BAE8F /* 仿喵播.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1660C10B1D405261000BAE8F /* 仿喵播Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1660C1231D405261000BAE8F /* Build configuration list for PBXNativeTarget "仿喵播Tests" */;
+			buildPhases = (
+				1660C1081D405261000BAE8F /* Sources */,
+				1660C1091D405261000BAE8F /* Frameworks */,
+				1660C10A1D405261000BAE8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1660C10E1D405261000BAE8F /* PBXTargetDependency */,
+			);
+			name = "仿喵播Tests";
+			productName = "仿喵播Tests";
+			productReference = 1660C10C1D405261000BAE8F /* 仿喵播Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1660C1161D405261000BAE8F /* 仿喵播UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1660C1261D405261000BAE8F /* Build configuration list for PBXNativeTarget "仿喵播UITests" */;
+			buildPhases = (
+				1660C1131D405261000BAE8F /* Sources */,
+				1660C1141D405261000BAE8F /* Frameworks */,
+				1660C1151D405261000BAE8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1660C1191D405261000BAE8F /* PBXTargetDependency */,
+			);
+			name = "仿喵播UITests";
+			productName = "仿喵播UITests";
+			productReference = 1660C1171D405261000BAE8F /* 仿喵播UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1660C0EB1D405261000BAE8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AD;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王奥东";
+				TargetAttributes = {
+					1660C0F21D405261000BAE8F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 28PKFZ46A5;
+					};
+					1660C10B1D405261000BAE8F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3TP2S3N87D;
+						TestTargetID = 1660C0F21D405261000BAE8F;
+					};
+					1660C1161D405261000BAE8F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3TP2S3N87D;
+						TestTargetID = 1660C0F21D405261000BAE8F;
+					};
+				};
+			};
+			buildConfigurationList = 1660C0EE1D405261000BAE8F /* Build configuration list for PBXProject "仿喵播" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1660C0EA1D405261000BAE8F;
+			productRefGroup = 1660C0F41D405261000BAE8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1660C0F21D405261000BAE8F /* 仿喵播 */,
+				1660C10B1D405261000BAE8F /* 仿喵播Tests */,
+				1660C1161D405261000BAE8F /* 仿喵播UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1660C0F11D405261000BAE8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1660C1061D405261000BAE8F /* LaunchScreen.storyboard in Resources */,
+				162A28CE1D44D0EE0075B137 /* ADLiveAnchorView.xib in Resources */,
+				1660C1031D405261000BAE8F /* Assets.xcassets in Resources */,
+				162A28D31D45AB2F0075B137 /* ADCatEarView.xib in Resources */,
+				162A28B61D447DF30075B137 /* ADHotLiveCell.xib in Resources */,
+				162A28DB1D45B3D50075B137 /* ADLiveEndView.xib in Resources */,
+				162A29541D46E86C0075B137 /* ADAnchorViewCell.xib in Resources */,
+				1660C1971D406E9D000BAE8F /* user.plist in Resources */,
+				1660C1961D406E9D000BAE8F /* loginmovie.mp4 in Resources */,
+				162A2ABE1D483D500075B137 /* ADShowTimeViewController.storyboard in Resources */,
+				1660C1951D406E9D000BAE8F /* login_video.mp4 in Resources */,
+				162A29881D47072F0075B137 /* ADCareViewController.storyboard in Resources */,
+				162A294C1D46096E0075B137 /* ADUserView.xib in Resources */,
+				1660C1941D406E9D000BAE8F /* danmu.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1660C10A1D405261000BAE8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1660C1151D405261000BAE8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17E1D82D28190F592143ECF9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70A946B3A2521AA05030D6A2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-仿喵播/Pods-仿喵播-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F99FD888A3FE6E68E22ED7F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-仿喵播/Pods-仿喵播-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1660C0EF1D405261000BAE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162A29521D46E8550075B137 /* ADAnchorViewCell.m in Sources */,
+				162A28C91D44CAD20075B137 /* ADBottomToolView.m in Sources */,
+				1660C1BD1D41A7BD000BAE8F /* NSObject+ADHUD.m in Sources */,
+				1660C1C01D41A815000BAE8F /* UIViewController+ADSLHUD.m in Sources */,
+				162A28CC1D44CE810075B137 /* ADLiveAnchorView.m in Sources */,
+				1660C1D51D41DF54000BAE8F /* ADNetWorkTool.m in Sources */,
+				1660C1C91D41B521000BAE8F /* ADHomeViewController.m in Sources */,
+				162A29471D4608420075B137 /* ADLiveFlowLayout.m in Sources */,
+				1660C1B81D41A657000BAE8F /* UIView+SLExtension.m in Sources */,
+				1660C13A1D4064E5000BAE8F /* ADProfileController.m in Sources */,
+				1660C1621D40689F000BAE8F /* ADThirdLoginView.m in Sources */,
+				1660C1351D40639D000BAE8F /* ADConstant.m in Sources */,
+				162A29861D4707200075B137 /* ADCareViewController.m in Sources */,
+				1660C0FB1D405261000BAE8F /* AppDelegate.m in Sources */,
+				162A294F1D46E8060075B137 /* ADNewStarViewController.m in Sources */,
+				162A28D61D45B0150075B137 /* ADLiveViewCell.m in Sources */,
+				162A28B41D447DD60075B137 /* ADHomeADCell.m in Sources */,
+				162A2ABD1D483D500075B137 /* ADShowTimeViewController.m in Sources */,
+				1660C2E81D439F95000BAE8F /* ADHotViewController.m in Sources */,
+				162A28E11D45EA0E0075B137 /* NSSafeObject.m in Sources */,
+				162A28DE1D45BBE50075B137 /* UIViewController+ADExtension.m in Sources */,
+				1660C1D21D41B654000BAE8F /* UIDevice+ADExtension.m in Sources */,
+				1660C1D81D41EE2F000BAE8F /* ADTopWindow.m in Sources */,
+				162A28C01D44AD070075B137 /* ADTopAD.m in Sources */,
+				162A28C31D44B6800075B137 /* ADWebViewController.m in Sources */,
+				1660C2E51D438E61000BAE8F /* ADSelectedView.m in Sources */,
+				1660C1C61D41AEF1000BAE8F /* ADNavigationController.m in Sources */,
+				1660C1B71D41A657000BAE8F /* UIImageView+Extension.m in Sources */,
+				162A28D91D45B1560075B137 /* ADLiveEndView.m in Sources */,
+				162A29571D46EFFA0075B137 /* ADHomeFlowLayout.m in Sources */,
+				162A28AE1D447BCC0075B137 /* ADRefreshGifHeader.m in Sources */,
+				162A28BA1D447F9C0075B137 /* XRCarouselView.m in Sources */,
+				162A28BD1D4496BD0075B137 /* UIImage+ADExtension.m in Sources */,
+				162A27691D4458940075B137 /* ADInLive.m in Sources */,
+				162A28C61D44B7A50075B137 /* ADLiveCollectionViewController.m in Sources */,
+				162A28B11D447D9F0075B137 /* ADHotLiveCell.m in Sources */,
+				1660C15F1D406859000BAE8F /* ADLoginViewController.m in Sources */,
+				1660C1C31D41AEC3000BAE8F /* MainViewController.m in Sources */,
+				162A28D11D45AB0C0075B137 /* ADCatEarView.m in Sources */,
+				1660C1321D406364000BAE8F /* Reachability.m in Sources */,
+				162A294A1D4609040075B137 /* ADUserView.m in Sources */,
+				1660C0F81D405261000BAE8F /* main.m in Sources */,
+				162A276C1D445B070075B137 /* ADUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1660C1081D405261000BAE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1660C1111D405261000BAE8F /* ___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1660C1131D405261000BAE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1660C11C1D405261000BAE8F /* ___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1660C10E1D405261000BAE8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1660C0F21D405261000BAE8F /* 仿喵播 */;
+			targetProxy = 1660C10D1D405261000BAE8F /* PBXContainerItemProxy */;
+		};
+		1660C1191D405261000BAE8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1660C0F21D405261000BAE8F /* 仿喵播 */;
+			targetProxy = 1660C1181D405261000BAE8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1660C1041D405261000BAE8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1660C1051D405261000BAE8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1660C11E1D405261000BAE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1660C11F1D405261000BAE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1660C1211D405261000BAE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F732158DB858256BC3D8FE /* Pods-仿喵播.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/仿喵播/Classes/Frameworks",
+				);
+				GCC_PREFIX_HEADER = "仿喵播/Classes/Resource/PrefixHeader.pch";
+				INFOPLIST_FILE = "仿喵播/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = copyMiaoBoOfAD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1660C1221D405261000BAE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ACE90EF4F6C684721378D9C /* Pods-仿喵播.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/仿喵播/Classes/Frameworks",
+				);
+				GCC_PREFIX_HEADER = "仿喵播/Classes/Resource/PrefixHeader.pch";
+				INFOPLIST_FILE = "仿喵播/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = copyMiaoBoOfAD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1660C1241D405261000BAE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿喵播Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿喵播.app/仿喵播";
+			};
+			name = Debug;
+		};
+		1660C1251D405261000BAE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿喵播Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿喵播.app/仿喵播";
+			};
+			name = Release;
+		};
+		1660C1271D405261000BAE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿喵播UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿喵播";
+			};
+			name = Debug;
+		};
+		1660C1281D405261000BAE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿喵播UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿喵播";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1660C0EE1D405261000BAE8F /* Build configuration list for PBXProject "仿喵播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1660C11E1D405261000BAE8F /* Debug */,
+				1660C11F1D405261000BAE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1660C1201D405261000BAE8F /* Build configuration list for PBXNativeTarget "仿喵播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1660C1211D405261000BAE8F /* Debug */,
+				1660C1221D405261000BAE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1660C1231D405261000BAE8F /* Build configuration list for PBXNativeTarget "仿喵播Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1660C1241D405261000BAE8F /* Debug */,
+				1660C1251D405261000BAE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1660C1261D405261000BAE8F /* Build configuration list for PBXNativeTarget "仿喵播UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1660C1271D405261000BAE8F /* Debug */,
+				1660C1281D405261000BAE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1660C0EB1D405261000BAE8F /* Project object */;
+}

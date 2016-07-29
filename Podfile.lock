@@ -1,0 +1,61 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BarrageRenderer (1.8.1)
+  - CocoaAsyncSocket (7.5.0):
+    - CocoaAsyncSocket/GCD (= 7.5.0)
+  - CocoaAsyncSocket/GCD (7.5.0)
+  - LFLiveKit (1.9.0):
+    - LMGPUImage (~> 0.1.9)
+    - pili-librtmp (~> 1.0.3)
+    - YYDispatchQueuePool
+  - LMGPUImage (0.1.9)
+  - Masonry (1.0.1)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - pili-librtmp (1.0.3.1)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - YYDispatchQueuePool (1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - BarrageRenderer (~> 1.8.0)
+  - CocoaAsyncSocket (~> 7.5.0)
+  - LFLiveKit (~> 1.9.0)
+  - Masonry (~> 1.0.1)
+  - MBProgressHUD (~> 0.9.2)
+  - MJExtension (~> 3.0.10)
+  - MJRefresh (~> 3.1.1)
+  - SDWebImage (~> 3.8.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BarrageRenderer: a5dc2c9d38028be819b64ed2b7dfa240490b378a
+  CocoaAsyncSocket: 3baeb1ddd969f81cf9fca81053ae49ef2d1cbbfa
+  LFLiveKit: 84245619735e6790a90487e0f7194f0f195b8169
+  LMGPUImage: 8e2e5d0f7065953eb7812de842db4c87d59abf09
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  pili-librtmp: 0adf2516f4b5958b3cb079a4c3d4f6a4a9f49ce9
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  YYDispatchQueuePool: 3dfb2274bcc74207688dde8ac6f7bdd46871dd7b
+
+COCOAPODS: 0.39.0

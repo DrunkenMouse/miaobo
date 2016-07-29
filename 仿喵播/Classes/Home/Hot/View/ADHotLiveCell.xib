@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="135" id="fah-zb-kJ7" customClass="ADHotLiveCell">
+            <rect key="frame" x="0.0" y="0.0" width="305" height="440"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fah-zb-kJ7" id="etH-vu-lFt">
+                <rect key="frame" x="0.0" y="0.0" width="305" height="439"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="izF-bh-bze">
+                        <rect key="frame" x="-1" y="0.0" width="320" height="55"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder_head" translatesAutoresizingMaskIntoConstraints="NO" id="C2g-lK-KiG">
+                                <rect key="frame" x="0.0" y="8" width="40" height="40"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="直播名" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqO-G3-iYh">
+                                <rect key="frame" x="53" y="8" width="42" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl_star1_40x19" translatesAutoresizingMaskIntoConstraints="NO" id="SfM-5M-0OD">
+                                <rect key="frame" x="112" y="6" width="40" height="19"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6789人再看" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fx5-zi-I81">
+                                <rect key="frame" x="221" y="19" width="76" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7P-DL-x6G">
+                                <rect key="frame" x="53" y="33" width="134" height="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="上海市" image="home_location_8x8">
+                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oYF-l6-9As">
+                        <rect key="frame" x="-1" y="56" width="320" height="375"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="375" id="pE6-0Q-Lfe"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_live_43x22" translatesAutoresizingMaskIntoConstraints="NO" id="vYa-jx-u8m">
+                        <rect key="frame" x="254" y="63" width="43" height="22"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vYa-jx-u8m" firstAttribute="top" secondItem="izF-bh-bze" secondAttribute="bottom" constant="8" symbolic="YES" id="8WU-XB-fnM"/>
+                    <constraint firstItem="vYa-jx-u8m" firstAttribute="trailing" secondItem="etH-vu-lFt" secondAttribute="trailingMargin" id="BP2-0V-9sa"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="izF-bh-bze" secondAttribute="trailing" constant="-22" id="Dcg-eC-VYw"/>
+                    <constraint firstItem="izF-bh-bze" firstAttribute="trailing" secondItem="oYF-l6-9As" secondAttribute="trailing" id="MgP-17-e5E"/>
+                    <constraint firstItem="izF-bh-bze" firstAttribute="leading" secondItem="etH-vu-lFt" secondAttribute="leadingMargin" constant="-9" id="YzR-w6-3zX"/>
+                    <constraint firstItem="oYF-l6-9As" firstAttribute="top" secondItem="izF-bh-bze" secondAttribute="bottom" constant="1" id="ZyG-F8-ipI"/>
+                    <constraint firstItem="izF-bh-bze" firstAttribute="leading" secondItem="oYF-l6-9As" secondAttribute="leading" id="li1-DB-PM4"/>
+                    <constraint firstItem="izF-bh-bze" firstAttribute="top" secondItem="etH-vu-lFt" secondAttribute="top" id="uej-Rg-JL9"/>
+                    <constraint firstItem="oYF-l6-9As" firstAttribute="bottom" secondItem="etH-vu-lFt" secondAttribute="bottomMargin" id="zp7-Vt-GPm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="BigPicView" destination="oYF-l6-9As" id="jfb-NI-RvC"/>
+                <outlet property="ChaoYangeLabel" destination="fx5-zi-I81" id="sRo-FR-p4I"/>
+                <outlet property="HeadImageView" destination="C2g-lK-KiG" id="Nrq-8O-igx"/>
+                <outlet property="LocationBtn" destination="x7P-DL-x6G" id="kph-V1-o7q"/>
+                <outlet property="NameLabel" destination="pqO-G3-iYh" id="hXU-DN-Tfp"/>
+                <outlet property="StartView" destination="SfM-5M-0OD" id="ejm-h4-tUb"/>
+            </connections>
+            <point key="canvasLocation" x="225.5" y="320.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="girl_star1_40x19" width="40" height="19"/>
+        <image name="home_live_43x22" width="43" height="22"/>
+        <image name="home_location_8x8" width="8" height="8"/>
+        <image name="placeholder_head" width="100" height="100"/>
+    </resources>
+</document>
